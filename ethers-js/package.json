@@ -1,0 +1,31 @@
+{
+  "name": "@axie-taxi/ethers-contracts",
+  "version": "0.0.1",
+  "description": "Ethers ABIs for Axie Infinity",
+  "main": "dist/ethers-js/src/index.js",
+  "types": "dist/ethers-js/src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p .",
+    "generate-types": "npx typechain --target=ethers-v5 --out-dir ./src/contracts/ \"../contracts/*.abi\"",
+    "postinstall": "npm run generate-types",
+    "postversion": "git push origin main --follow-tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axie-taxi/abi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axie-taxi/abi/issues"
+  },
+  "homepage": "https://github.com/axie-taxi/abi#readme",
+  "devDependencies": {
+    "@typechain/ethers-v5": "^9.0.0",
+    "typechain": "^7.0.0"
+  },
+  "dependencies": {
+    "ethers": "^5.5.3"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "include": ["src/index.ts"],
+  "compilerOptions": {
+    "declaration": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "outDir": "dist"
+  }
+}
