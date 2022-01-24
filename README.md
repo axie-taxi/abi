@@ -1,6 +1,6 @@
 # Axie Infinity ABIs
 
-Here are the ABIs that power [axie.taxi](https://axie.taxi), the only secure method of auto-claiming and paying scholars for your guild.
+Here are the ABIs that power [axie.taxi](https://axie.taxi), a secure method of auto-claiming and paying scholars for your guild.
 
 ## About this repo
 
