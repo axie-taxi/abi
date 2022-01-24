@@ -48,6 +48,7 @@ For ethers
 ```
 cd ethers-js
 npm install
+npm run generate-types
 ```
 
 ## Contributing

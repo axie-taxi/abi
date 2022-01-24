@@ -1,6 +1,6 @@
 {
   "name": "@axie-taxi/ethers-contracts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Ethers ABIs for Axie Infinity",
   "main": "dist/ethers-js/src/index.js",
   "types": "dist/ethers-js/src/index.d.ts",
@@ -8,7 +8,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p .",
     "generate-types": "npx typechain --target=ethers-v5 --out-dir ./src/contracts/ \"../contracts/*.abi\"",
-    "postinstall": "npm run generate-types",
     "postversion": "git push origin main --follow-tags && npm publish"
   },
   "repository": {
