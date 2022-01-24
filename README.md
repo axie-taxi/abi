@@ -30,7 +30,7 @@ Also included are ethers typescript bindings generated via `typechain`.
 ## Including it in your project
 
 ```
-npm i @axie-taxi/abi
+npm i @axie-taxi/ethers-contracts
 ```
 
 In your javascript:
