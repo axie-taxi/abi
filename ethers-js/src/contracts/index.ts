@@ -3,6 +3,7 @@
 /* eslint-disable */
 export type { AxieContract } from "./AxieContract";
 export type { AXSWETHLPContract } from "./AXSWETHLPContract";
+export type { AXSWETHLPStakingPoolContract } from "./AXSWETHLPStakingPoolContract";
 export type { ClockAuctionContract } from "./ClockAuctionContract";
 export type { ItemContract } from "./ItemContract";
 export type { KatanaRouter } from "./KatanaRouter";
@@ -20,6 +21,7 @@ export type { WrappedRONContract } from "./WrappedRONContract";
 
 export { AxieContract__factory } from "./factories/AxieContract__factory";
 export { AXSWETHLPContract__factory } from "./factories/AXSWETHLPContract__factory";
+export { AXSWETHLPStakingPoolContract__factory } from "./factories/AXSWETHLPStakingPoolContract__factory";
 export { ClockAuctionContract__factory } from "./factories/ClockAuctionContract__factory";
 export { ItemContract__factory } from "./factories/ItemContract__factory";
 export { KatanaRouter__factory } from "./factories/KatanaRouter__factory";

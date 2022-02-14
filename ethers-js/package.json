@@ -1,6 +1,6 @@
 {
   "name": "@axie-taxi/ethers-contracts",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Ethers ABIs for Axie Infinity",
   "main": "dist/ethers-js/src/index.js",
   "types": "dist/ethers-js/src/index.d.ts",
